@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: MainWP Child v0.29.2\n"
+"Project-Id-Version: MainWP Child v0.29.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: \n"
-"PO-Revision-Date: 2014-05-02 11:29:41+0000\n"
+"PO-Revision-Date: 2014-05-20 08:03:07+0000\n"
 "Last-Translator: JayJay <info@w-d-a.de>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,116 +20,116 @@ msgstr ""
 "X-Poedit-SearchPath-0: .\n"
 "X-Textdomain-Support: yes"
 
-#: class/MainWPChild.class.php:251
+#: class/MainWPChild.class.php:275
 #@ mainwp-child
 msgid "Connection Settings"
 msgstr "Verbindungseinstellungen"
 
-#: class/MainWPChild.class.php:259
+#: class/MainWPChild.class.php:283
 #@ mainwp-child
 msgid "Require Unique Security ID"
 msgstr "Eine eindeutige Sicherheits-ID"
 
-#: class/MainWPChild.class.php:262
+#: class/MainWPChild.class.php:286
 #@ mainwp-child
 msgid "Your Unique Security ID is:"
 msgstr "Ihre eindeutige Sicherheits-ID ist:"
 
-#: class/MainWPChild.class.php:266
+#: class/MainWPChild.class.php:290
 #@ mainwp-child
 msgid "The Unique Security ID adds additional protection between the Child plugin and your<br/>Main Dashboard. The Unique Security ID will need to match when being added to <br/>the Main Dashboard. This is additional security and should not be needed in most situations."
 msgstr "Die eindeutige Sicherheits-ID bringt zusätzlichen Schutz zwischen dem Client und Ihrem<br/>MainWP Dashboard. Die eindeutige Sicherheits-ID muß übereinstimmen, wenn sie im MainWP Dashboard aufgenommen wird.<br/> Dies ist eine zusätzliche Sicherheit und ist in den meisten Fällen nicht erforderlich."
 
-#: class/MainWPChild.class.php:272
+#: class/MainWPChild.class.php:296
 #@ mainwp-child
 msgid "Save Changes"
 msgstr "Änderungen speichern"
 
-#: class/MainWPChild.class.php:531
+#: class/MainWPChild.class.php:555
 #@ mainwp-child
 msgid "Authentication failed. Reinstall MainWP plugin please"
 msgstr "Authentifizierung fehlgeschlagen. Installieren Sie bitte das MainWP Plugin erneut."
 
-#: class/MainWPChild.class.php:540
-#: class/MainWPChild.class.php:1103
+#: class/MainWPChild.class.php:564
+#: class/MainWPChild.class.php:1129
 #@ mainwp-child
 msgid "No such user"
 msgstr "Keine solche Benutzer"
 
-#: class/MainWPChild.class.php:545
-#: class/MainWPChild.class.php:1107
+#: class/MainWPChild.class.php:569
+#: class/MainWPChild.class.php:1133
 #@ mainwp-child
 msgid "User is not an administrator"
 msgstr "Benutzer ist kein Administrator"
 
-#: class/MainWPChild.class.php:658
+#: class/MainWPChild.class.php:684
 #@ mainwp-child
 msgid "Bad request."
 msgstr "Fehlerhafte Anforderung."
 
-#: class/MainWPChild.class.php:884
-#: class/MainWPChild.class.php:909
-#: class/MainWPChild.class.php:962
+#: class/MainWPChild.class.php:910
+#: class/MainWPChild.class.php:935
 #: class/MainWPChild.class.php:988
-#: class/MainWPChild.class.php:995
+#: class/MainWPChild.class.php:1014
+#: class/MainWPChild.class.php:1021
 #@ mainwp-child
 msgid "Bad request"
 msgstr "Fehlerhafte Anforderung"
 
-#: class/MainWPChild.class.php:1077
+#: class/MainWPChild.class.php:1103
 #@ mainwp-child
 msgid "Invalid request"
 msgstr "Ungültige Anforderung"
 
-#: class/MainWPChild.class.php:1083
+#: class/MainWPChild.class.php:1109
 #@ mainwp-child
 msgid "Public key already set, reset the MainWP plugin on your site and try again."
 msgstr "Öffentlicher Schlüssel bereits festgelegt, setzen Sie die MainWP Plugin auf Ihrer Website erneut auf und versuchen Sie es noch einmal"
 
-#: class/MainWPChild.class.php:1090
+#: class/MainWPChild.class.php:1116
 #@ mainwp-child
 msgid "This Child Site is set to require a Unique Security ID - Please Enter It before connection can be established."
 msgstr "Dieser Client erfordert eine eindeutige Sicherheits-ID. Bitte geben Sie diese ein bevor eine Verbindung hergestellt werden kann."
 
-#: class/MainWPChild.class.php:1094
+#: class/MainWPChild.class.php:1120
 #@ mainwp-child
 msgid "The Unique Security ID you have entered does not match Child Security ID - Please Correct It before connection can be established."
 msgstr "Die eindeutige Sicherheits-ID die Sie eingegeben haben, entspricht nicht der Client Security ID. Bitte verbessern Sie dies bevor eine Verbindung hergestellt werden kann."
 
-#: class/MainWPChild.class.php:1359
+#: class/MainWPChild.class.php:1385
 #@ mainwp-child
 msgid "Could not change the admin password."
 msgstr "Das Admin-Passwort kann nicht geändern werden."
 
-#: class/MainWPChild.class.php:1381
+#: class/MainWPChild.class.php:1407
 #@ mainwp-child
 msgid "Undefined error"
 msgstr "Undefinierter Fehler"
 
-#: class/MainWPChild.class.php:1395
+#: class/MainWPChild.class.php:1421
 #, php-format
 #@ default
 msgid "Username: %s"
 msgstr "Benutzername: %s"
 
-#: class/MainWPChild.class.php:1396
+#: class/MainWPChild.class.php:1422
 #, php-format
 #@ default
 msgid "Password: %s"
 msgstr "Passwort: %s"
 
-#: class/MainWPChild.class.php:1399
+#: class/MainWPChild.class.php:1425
 #, php-format
 #@ default
 msgid "[%s] Your username and password"
 msgstr "[%s] Dein Benutzername und Passwort"
 
-#: class/MainWPChild.class.php:2828
+#: class/MainWPChild.class.php:2882
 #@ mainwp-child
 msgid "This site already contains a link - please disable and enable the MainWP plugin."
 msgstr "Diese Website enthält bereits diesen Link"
 
-#: class/MainWPChild.class.php:2950
+#: class/MainWPChild.class.php:3004
 #@ mainwp-child
 msgid "Wordpress Filesystem error: "
 msgstr "Wordpress-Dateisystem-Fehler:"
@@ -714,22 +714,22 @@ msgstr "Suchen"
 msgid "Blog Home Page"
 msgstr "Blog Startseite"
 
-#: class/MainWPHelper.class.php:258
+#: class/MainWPHelper.class.php:329
 #@ mainwp-child
 msgid "Unable to create directory "
 msgstr "Verzeichnis kann nicht erstellt"
 
-#: class/MainWPHelper.class.php:258
+#: class/MainWPHelper.class.php:329
 #@ mainwp-child
 msgid " Is its parent directory writable by the server?"
 msgstr "Ist das übergeordnete Verzeichnis durch den Server beschreibbar?"
 
-#: class/MainWPHelper.class.php:450
+#: class/MainWPHelper.class.php:521
 #@ mainwp-child
 msgid "Something went wrong while contacting the child site. Please check if there is an error on the child site. This error could also be caused by trying to clone or restore a site to large for your server settings."
 msgstr "Etwas ist schiefgelaufen, während der Verbindung zum Client. Bitte überprüfen Sie, ob es einen Fehler von der Client Webseite ist."
 
-#: class/MainWPHelper.class.php:454
+#: class/MainWPHelper.class.php:525
 #@ mainwp-child
 msgid "Child plugin is disabled or the security key is incorrect. Please resync with your main installation."
 msgstr "MainWP Clhild Plugin ist deaktiviert oder der Sicherheitsschlüssel ist falsch."
@@ -845,4 +845,24 @@ msgstr "Fehlerprotokollierung deaktiviert."
 #@ mainwp
 msgid "No errors found... Yet."
 msgstr "Keine Fehler gefunden ... zurzeit."
+
+#: class/MainWPWordpressSEO.class.php:59
+#: class/MainWPWordpressSEO.class.php:111
+#: class/MainWPWordpressSEO.class.php:116
+#: class/MainWPWordpressSEO.class.php:122
+#: class/MainWPWordpressSEO.class.php:128
+#@ wordpress-seo
+msgid "Settings could not be imported:"
+msgstr "Einstellungen konnten nicht importiert werden:"
+
+#: class/MainWPWordpressSEO.class.php:122
+#, php-format
+#@ wordpress-seo
+msgid "Unzipping failed with error \"%s\"."
+msgstr "Entpacken fehlgeschlagen mit Fehler \"%s\"."
+
+#: class/MainWPWordpressSEO.class.php:128
+#@ wordpress-seo
+msgid "Upload failed."
+msgstr "Hochladen fehlgeschlagen."
 
